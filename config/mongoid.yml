@@ -167,4 +167,12 @@ test:
       options:
         read:
           mode: :primary
-        max_pool_size: 1
+        max_pool_size: 17
+
+production:
+    clients:
+        default:
+            uri: &lt;%= ENV['mongodb://heroku_8v7622hl:k9kdm5mo4835ieo59nq3nj9ma0@ds031892.mlab.com:31892/heroku_8v7622hl'] %&gt;
+        options:
+            skip_version_check: true
+        safe: true
