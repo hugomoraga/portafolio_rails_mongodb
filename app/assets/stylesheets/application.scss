@@ -32,8 +32,6 @@ body {
     margin-bottom: 60px;
 }
 
-.jumbotron {}
-
 header {
     position: relative;
     background-color: black;
@@ -76,10 +74,8 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-    header video {
-        display: none;
+        background: url('backgroundjumbo.png') black no-repeat center center scroll;
+        height: 18vh;
     }
 }
 
@@ -131,7 +127,7 @@ body {
 }
 
 .st1 {
-    font-size: 27px;
+    font-size: 37px;
 }
 
 .st2 {
