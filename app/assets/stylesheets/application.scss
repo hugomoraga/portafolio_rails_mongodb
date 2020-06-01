@@ -17,7 +17,7 @@
 @import "bootstrap";
 @font-face {
     font-family: 'Arame';
-    src: url('/assets/Arame.ttf')
+    src: asset-url('Arame.ttf');
 }
 
 html {
@@ -135,7 +135,7 @@ body {
 }
 
 .st2 {
-    font-size: 82px;
+    font-size: 65px;
 }
 
 .st3 {
